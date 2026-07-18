@@ -1,0 +1,8 @@
+# Ignore compiled C++ executables
+A_Greg_and_Array
+
+# Common build artifacts
+*.o
+*.obj
+*.exe
+*.out
