@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build active cpp file",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "-O0",
+        "-std=c++17",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}",
+        "${file}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
